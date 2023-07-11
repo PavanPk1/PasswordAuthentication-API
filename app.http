@@ -1,0 +1,30 @@
+//API 1
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "username": "pavanPk16",
+  "name": "Pavan Kumar",
+  "password": "love143",
+  "gender": "male",
+  "location": "Detroit"
+}
+###
+//API 2
+POST http://localhost:3000/login/ 
+Content-Type: application/json
+
+{
+  "username": "pavanPk16",
+  "password": "pavan143"
+}
+###
+//API
+PUT http://localhost:3000/change-password
+Content-Type: application/json
+
+{
+  "username": "pavanPk16",
+  "oldPassword": "love143",
+  "newPassword": "pavan143"
+}
